@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Introduction to C# Online Tutoral</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+
+
+  <div class="Top_Panel">
+      <img class="logo_img" src="images\Logo_Trans.png" alt="Logo">
+  </div>
+
+  <div class="Left-Menu">
+        <H1>Lessons:</H1>
+        <button type="button" class="collapsible">Tutorial 1</button>
+        <div class="content">
+          <p>
+            <a href="C:\Users\Oliver.harris\Documents\Web Developer\Learning\Tutorial1_Intro.html" title="Introduction">Introduction to Programming</a>
+          </p>
+          <p>
+            <a href="C:\Users\Oliver.harris\Documents\Web Developer\Learning\Tutorial1_VS.html" title="Visual Studio">Introduction to Visual Studio</a>
+          </p>
+          <p>
+            <a href="C:\Users\Oliver.harris\Documents\Web Developer\Learning\Tutorial1_History.html" title="History">A Brief History of Programming</a>
+          </p>
+          <p>
+            <a href="C:\Users\Oliver.harris\Documents\Web Developer\Learning\Tutorial1_Ex1.html" title="Ex1">Exercise 1</a>
+          </p>
+            <p>
+              <a href="C:\Users\Oliver.harris\Documents\Web Developer\Learning\Tutorial1_Sol1.html" title="EX1_CS">Code Solution</a>
+            </p>
+            <p>
+              <a href="C:\Users\Oliver.harris\Documents\Web Developer\Learning\Tutorial1_IO.html" title="IO Video">Input Output in C#</a>
+            </p>
+            <p>
+              <a href="C:\Users\Oliver.harris\Documents\Web Developer\Learning\Tutorial1_Ex2.html" title="EX2">Exercise 2</a>
+            </p>
+              <p>
+                <a href="C:\Users\Oliver.harris\Documents\Web Developer\Learning\Tutorial1_Sol2.html" title="EX2_CS">Code Solution</a>
+              </p>
+              <p>
+                <a href="C:\Users\Oliver.harris\Documents\Web Developer\Learning\Tutorial1_Ex3.html" title="EX3">Exercise 3</a>
+              </p>
+                <p>
+                  <a href="C:\Users\Oliver.harris\Documents\Web Developer\Learning\Tutorial1_Sol3.html" title="EX3_CS">Code Solution</a>
+                </p>
+                <p>
+                  <a href="C:\Users\Oliver.harris\Documents\Web Developer\Learning\Tutorial1_Ex4.html" title="EX4">Exercise 4</a>
+                </p>
+                  <p>
+                    <a href="C:\Users\Oliver.harris\Documents\Web Developer\Learning\Tutorial1_Sol4.html" title="EX4_CS">Code Solution</a>
+                  </p>
+                  <p>
+                    <a href="C:\Users\Oliver.harris\Documents\Web Developer\Learning\Tutorial1_Math.html" title="Arthmetic methods">Arthmetic Methods</a>
+                  </p>
+                  <p>
+                    <a href="C:\Users\Oliver.harris\Documents\Web Developer\Learning\Tutorial1_String.html" title="StringMethods">String Methods</a>
+                  </p>
+                  <p>
+                    <a href="C:\Users\Oliver.harris\Documents\Web Developer\Learning\Tutorial1_Ex5.html" title="EX5">Exercise 5</a>
+                  </p>
+                    <p>
+                      <a href="C:\Users\Oliver.harris\Documents\Web Developer\Learning\Tutorial1_Sol5.html" title="EX5_CS">Code Solution</a>
+                    </p>
+                    <p>
+                      <a href="C:\Users\Oliver.harris\Documents\Web Developer\Learning\Tutorial1_CoreIntro.html" title="CS">Introduction to Core Exercises</a>
+                    </p>
+                    <p>
+                      <a href="C:\Users\Oliver.harris\Documents\Web Developer\Learning\Tutorial1_CoreEx.html" title="EX_CS">Core Exercises</a>
+                    </p>
+        </div>
+        <button type="button" class="collapsible">Tutorial 2</button>
+        <div class="content">
+          <p>
+            <a href="C:\Users\Oliver.harris\Documents\Web Developer\Learning\Tutorial2_Ex1.html" title="First Exercise">Class Exercise 1</a>
+          </p>
+          <p>
+            <a href="C:\Users\Oliver.harris\Documents\Web Developer\Learning\Tutorial2_Ex2.html" title="Second Exercise">Class Exercise 2</a>
+          </p
+          <p>
+            <a href="C:\Users\Oliver.harris\Documents\Web Developer\Learning\Tutorial2_Ex3.html" title="Third Exercise">Class Exercise 3</a>
+          </p>
+          <p>
+            <a href="C:\Users\Oliver.harris\Documents\Web Developer\Learning\Tutorial2_Ex4.html" title="Fourth Exercise">Class Exercise 4</a>
+          </p>
+          <p>
+            <a href="C:\Users\Oliver.harris\Documents\Web Developer\Learning\Tutorial2_Ex5.html" title="Fifth Exercise">Class Exercise 5</a>
+          </p>
+          <p>
+            <a href="C:\Users\Oliver.harris\Documents\Web Developer\Learning\Tutorial2_Ex6.html" title="Sixth Exercise">Class Exercise 6</a>
+          </p>
+        </div>
+            <button type="button" class="collapsible">Tutorial 3</button>
+            <div class="content">
+                <p> Windows Applications.</p>
+            </div>
+            <button type="button" class="collapsible">Tutorial 4</button>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <button type="button" class="collapsible">Tutorial 5</button>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+  </div>
+  <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+    <div class="codeWindow">
+
+        <iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/8fV8HK" frameborder="0"></iframe>
+
+    </div>
+
+
+  </body>
+</html>
